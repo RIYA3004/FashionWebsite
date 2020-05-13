@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		
+		var xhr=new XMLHttpRequest();
+		//console.log(xhr.readyState);
+		xhr.onreadystatechange=function(){
+		if(xhr.readyState==4 ){
+		if(xhr.status==200){
+		document.getElementById("bottle").textContent=xhr.responseText;
+		}
+		if(xhr.status==404){
+		console.log('Response not found');
+		}
+		}
+		};
+		xhr.open('post','dom.txt',true);
+		xhr.send();
+		
+	</script>
+</head>
+<body>
+<p id="bottle"></p>
+</body>
+</html>

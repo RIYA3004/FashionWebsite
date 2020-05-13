@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="food.xsl"?>
+
+<food>
+<cuisine>
+<name>Punjabi</name>
+<price>200</price>	
+</cuisine>
+
+<cuisine>
+<name>Chinese</name>
+<price>190</price>	
+</cuisine>
+
+
+
+</food>

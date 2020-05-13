@@ -1,0 +1,33 @@
+<html>
+<head>
+<script type="text/javascript">
+function onready(){
+
+var xhttp=new XMLHttpRequest();
+xhttp.onreadystatechange=function(){
+if(xhttp.readyState==4)
+{
+if(xhttp.status==200)
+{
+var x=xhttp.responseText;
+document.write(x);
+}
+
+
+
+}
+
+
+};
+xhttp.open("get","fashion.xml",true);
+xhttp.send();
+
+
+}
+
+</script>
+</head>
+<body>
+<input type="button" value="click me" onclick="onready()">
+</body>
+</html>

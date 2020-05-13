@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="plants.xsl"?>
+<!--u need to have a root parent for encapsulation-->
+<fashion>
+<!--actual parent generation-->
+<!-- the first brand-->
+<brand>
+	<name>Gucci</name>
+	<founder>A</founder>
+	<year>1900</year>
+</brand>
+<!-- the second brand-->
+<brand>
+	<name>Armani</name>
+	<founder>B</founder>
+	<year>1901</year>
+</brand>
+<!-- the three brand-->
+<brand>
+	<name>DolceGabbana</name>
+	<founder>C</founder>
+	<year>1902</year>
+</brand>
+</fashion>
+

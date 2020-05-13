@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml-stylesheet type="text/xsl" href="book.xsl"?> -->
+<books>
+<book>
+  <name>A</name>xhttp.send();
+  <price>200</price>
+  <place>Mumbai</place>
+</book>
+<book>
+  <name>B</name>
+  <price>300</price>
+  <place>Pune</place>
+</book>
+<book>
+  <name>C</name>
+  <price>250</price>
+  <place>Surat</place>
+</book>
+</books>

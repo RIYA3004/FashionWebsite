@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		function onclicked(){
+
+         var xhttp=new XMLHttpRequest();
+         xhttp.onreadystatechange=function(){
+         	if(xhttp.readyState==4 ){
+         		if(xhttp.status==200){
+         			document.getElementById("bub").textContent=xhttp.responseText;
+                 
+         		}
+         		
+         	}
+         };
+          xhttp.open("GET","student.txt",true);
+          xhttp.send();
+
+		}
+function onroll(){
+var xhttp=new XMLHttpRequest();
+xhttp.onreadystatechange=function(){
+if(xhtpp.readyState==4){
+	if(xhttp.status==200){
+		document.getElementById("bub1").textContext=xhttp.responseText;
+	}
+}
+
+};
+xhttp.open("GET","rollno.txt",true)
+
+
+
+
+
+}
+
+
+	</script>
+</head>
+<body>
+<p id="bottle"> </p>
+<table border="1">
+	
+	<tr>
+	<th>Name</th><td id="bub"></td>
+</tr>
+<tr>
+	<th>Roll No</th><td id="bub1"></td>
+	</tr>
+</table>
+<input type="button" onclick="onclicked();onroll()" value="Click me">
+</body>
+</html>

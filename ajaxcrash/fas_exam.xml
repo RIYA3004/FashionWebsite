@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="fas_exam.xsl"?>
+<fashion>
+<material>
+  <name>AllenSolly</name>
+  <price>2000</price>
+
+</material>
+
+<material>
+  <name>Gucci</name>
+  <price>2500</price>
+
+</material>
+
+<material>
+  <name>Biba</name>
+  <price>2000</price>
+
+</material>
+
+</fashion>

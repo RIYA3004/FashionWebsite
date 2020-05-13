@@ -1,0 +1,134 @@
+body{
+	/*background-image: url("ehs.jpg" ),url("heyp.jpg");*/
+                  background-image:url("back_1.jpg");
+	background-repeat: no-repeat,no-repeat;
+	background-position: left,right;
+	background-size: cover;
+	background-attachment:fixed;
+
+}
+
+html{
+	height: 100%;
+}
+h1 p
+{
+	font-size: 72px;
+	color: #9966cc;
+	text-align: center;
+	/*font-family: cursive;*/
+	margin-left: 130px;
+	 text-shadow: 3px 3px crimson;
+	 
+   
+	
+}
+
+button{
+	font-family: monospace;
+	border: none;
+	margin: 0px;
+	padding: 5rem;
+
+	background-color:black;
+	color:#ffffff;
+	vertical-align: center;
+	float:right;
+}
+a:link{
+	color:white;
+}
+a:active{
+	color:white;
+}
+a:visited{
+	color:white;
+}
+button:hover{
+	background-color:black;
+	color:white;
+	text-decoration:underline;
+
+}
+.demand{
+	border: none;
+	margin: 0px;
+	padding: 10px;
+		vertical-align: center;
+	float:left;
+}
+a {
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+
+nav {
+   
+}
+
+ul {
+  background: black;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+li {
+    color: #fff;
+  background: black;
+    display: block;
+    float: left;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+  transition-duration: 0.5s;
+}
+  
+li a {
+  color: #fff;
+}
+li a:link{
+	color:white;
+}
+li a:active{
+	color:white;
+}
+li a:visited{
+	color:white;
+}
+
+li:hover {
+    background: black;
+    cursor: pointer;
+}
+
+ul li ul {
+    background:white;
+    visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+    position: absolute;
+  transition: all 0.5s ease;
+  color:black;
+  margin-top: 1rem;
+    left: 0;
+  display: none;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+ul li ul li {
+    clear: both;
+  width: 100%;
+}
+nav{
+	float:right;
+}
+

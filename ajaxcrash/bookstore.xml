@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="styleit.css"?>
+
+<bookstores>
+<book>
+<name>a</name>
+<year>1</year>
+<price>100</price>
+</book>
+<book>
+<name>b</name>
+<year>2</year>
+<price>200</price>
+</book>
+
+
+
+
+</bookstores>
